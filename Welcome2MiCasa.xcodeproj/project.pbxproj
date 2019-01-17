@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4993E59821F055370028C2F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4993E59721F055370028C2F0 /* AppDelegate.m */; };
+		4993E59B21F055380028C2F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4993E59A21F055380028C2F0 /* ViewController.m */; };
+		4993E59E21F055380028C2F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4993E59C21F055380028C2F0 /* Main.storyboard */; };
+		4993E5A021F0553F0028C2F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4993E59F21F0553F0028C2F0 /* Assets.xcassets */; };
+		4993E5A321F0553F0028C2F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4993E5A121F0553F0028C2F0 /* LaunchScreen.storyboard */; };
+		4993E5A621F0553F0028C2F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4993E5A521F0553F0028C2F0 /* main.m */; };
+		4993E5B021F0553F0028C2F0 /* Welcome2MiCasaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4993E5AF21F0553F0028C2F0 /* Welcome2MiCasaTests.m */; };
+		4993E5BB21F0553F0028C2F0 /* Welcome2MiCasaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4993E5BA21F0553F0028C2F0 /* Welcome2MiCasaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4993E5AC21F0553F0028C2F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4993E58B21F055370028C2F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4993E59221F055370028C2F0;
+			remoteInfo = Welcome2MiCasa;
+		};
+		4993E5B721F0553F0028C2F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4993E58B21F055370028C2F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4993E59221F055370028C2F0;
+			remoteInfo = Welcome2MiCasa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4993E59321F055370028C2F0 /* Welcome2MiCasa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Welcome2MiCasa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4993E59621F055370028C2F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4993E59721F055370028C2F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4993E59921F055380028C2F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4993E59A21F055380028C2F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4993E59D21F055380028C2F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4993E59F21F0553F0028C2F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4993E5A221F0553F0028C2F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4993E5A421F0553F0028C2F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4993E5A521F0553F0028C2F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4993E5AB21F0553F0028C2F0 /* Welcome2MiCasaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Welcome2MiCasaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4993E5AF21F0553F0028C2F0 /* Welcome2MiCasaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Welcome2MiCasaTests.m; sourceTree = "<group>"; };
+		4993E5B121F0553F0028C2F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4993E5B621F0553F0028C2F0 /* Welcome2MiCasaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Welcome2MiCasaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4993E5BA21F0553F0028C2F0 /* Welcome2MiCasaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Welcome2MiCasaUITests.m; sourceTree = "<group>"; };
+		4993E5BC21F0553F0028C2F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4993E59021F055370028C2F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4993E5A821F0553F0028C2F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4993E5B321F0553F0028C2F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4993E58A21F055370028C2F0 = {
+			isa = PBXGroup;
+			children = (
+				4993E59521F055370028C2F0 /* Welcome2MiCasa */,
+				4993E5AE21F0553F0028C2F0 /* Welcome2MiCasaTests */,
+				4993E5B921F0553F0028C2F0 /* Welcome2MiCasaUITests */,
+				4993E59421F055370028C2F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4993E59421F055370028C2F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4993E59321F055370028C2F0 /* Welcome2MiCasa.app */,
+				4993E5AB21F0553F0028C2F0 /* Welcome2MiCasaTests.xctest */,
+				4993E5B621F0553F0028C2F0 /* Welcome2MiCasaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4993E59521F055370028C2F0 /* Welcome2MiCasa */ = {
+			isa = PBXGroup;
+			children = (
+				4993E59621F055370028C2F0 /* AppDelegate.h */,
+				4993E59721F055370028C2F0 /* AppDelegate.m */,
+				4993E59921F055380028C2F0 /* ViewController.h */,
+				4993E59A21F055380028C2F0 /* ViewController.m */,
+				4993E59C21F055380028C2F0 /* Main.storyboard */,
+				4993E59F21F0553F0028C2F0 /* Assets.xcassets */,
+				4993E5A121F0553F0028C2F0 /* LaunchScreen.storyboard */,
+				4993E5A421F0553F0028C2F0 /* Info.plist */,
+				4993E5A521F0553F0028C2F0 /* main.m */,
+			);
+			path = Welcome2MiCasa;
+			sourceTree = "<group>";
+		};
+		4993E5AE21F0553F0028C2F0 /* Welcome2MiCasaTests */ = {
+			isa = PBXGroup;
+			children = (
+				4993E5AF21F0553F0028C2F0 /* Welcome2MiCasaTests.m */,
+				4993E5B121F0553F0028C2F0 /* Info.plist */,
+			);
+			path = Welcome2MiCasaTests;
+			sourceTree = "<group>";
+		};
+		4993E5B921F0553F0028C2F0 /* Welcome2MiCasaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4993E5BA21F0553F0028C2F0 /* Welcome2MiCasaUITests.m */,
+				4993E5BC21F0553F0028C2F0 /* Info.plist */,
+			);
+			path = Welcome2MiCasaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4993E59221F055370028C2F0 /* Welcome2MiCasa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4993E5BF21F0553F0028C2F0 /* Build configuration list for PBXNativeTarget "Welcome2MiCasa" */;
+			buildPhases = (
+				4993E58F21F055370028C2F0 /* Sources */,
+				4993E59021F055370028C2F0 /* Frameworks */,
+				4993E59121F055370028C2F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Welcome2MiCasa;
+			productName = Welcome2MiCasa;
+			productReference = 4993E59321F055370028C2F0 /* Welcome2MiCasa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4993E5AA21F0553F0028C2F0 /* Welcome2MiCasaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4993E5C221F0553F0028C2F0 /* Build configuration list for PBXNativeTarget "Welcome2MiCasaTests" */;
+			buildPhases = (
+				4993E5A721F0553F0028C2F0 /* Sources */,
+				4993E5A821F0553F0028C2F0 /* Frameworks */,
+				4993E5A921F0553F0028C2F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4993E5AD21F0553F0028C2F0 /* PBXTargetDependency */,
+			);
+			name = Welcome2MiCasaTests;
+			productName = Welcome2MiCasaTests;
+			productReference = 4993E5AB21F0553F0028C2F0 /* Welcome2MiCasaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4993E5B521F0553F0028C2F0 /* Welcome2MiCasaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4993E5C521F0553F0028C2F0 /* Build configuration list for PBXNativeTarget "Welcome2MiCasaUITests" */;
+			buildPhases = (
+				4993E5B221F0553F0028C2F0 /* Sources */,
+				4993E5B321F0553F0028C2F0 /* Frameworks */,
+				4993E5B421F0553F0028C2F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4993E5B821F0553F0028C2F0 /* PBXTargetDependency */,
+			);
+			name = Welcome2MiCasaUITests;
+			productName = Welcome2MiCasaUITests;
+			productReference = 4993E5B621F0553F0028C2F0 /* Welcome2MiCasaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4993E58B21F055370028C2F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Jenny Chang";
+				TargetAttributes = {
+					4993E59221F055370028C2F0 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4993E5AA21F0553F0028C2F0 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4993E59221F055370028C2F0;
+					};
+					4993E5B521F0553F0028C2F0 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4993E59221F055370028C2F0;
+					};
+				};
+			};
+			buildConfigurationList = 4993E58E21F055370028C2F0 /* Build configuration list for PBXProject "Welcome2MiCasa" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4993E58A21F055370028C2F0;
+			productRefGroup = 4993E59421F055370028C2F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4993E59221F055370028C2F0 /* Welcome2MiCasa */,
+				4993E5AA21F0553F0028C2F0 /* Welcome2MiCasaTests */,
+				4993E5B521F0553F0028C2F0 /* Welcome2MiCasaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4993E59121F055370028C2F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4993E5A321F0553F0028C2F0 /* LaunchScreen.storyboard in Resources */,
+				4993E5A021F0553F0028C2F0 /* Assets.xcassets in Resources */,
+				4993E59E21F055380028C2F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4993E5A921F0553F0028C2F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4993E5B421F0553F0028C2F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4993E58F21F055370028C2F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4993E59B21F055380028C2F0 /* ViewController.m in Sources */,
+				4993E5A621F0553F0028C2F0 /* main.m in Sources */,
+				4993E59821F055370028C2F0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4993E5A721F0553F0028C2F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4993E5B021F0553F0028C2F0 /* Welcome2MiCasaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4993E5B221F0553F0028C2F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4993E5BB21F0553F0028C2F0 /* Welcome2MiCasaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4993E5AD21F0553F0028C2F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4993E59221F055370028C2F0 /* Welcome2MiCasa */;
+			targetProxy = 4993E5AC21F0553F0028C2F0 /* PBXContainerItemProxy */;
+		};
+		4993E5B821F0553F0028C2F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4993E59221F055370028C2F0 /* Welcome2MiCasa */;
+			targetProxy = 4993E5B721F0553F0028C2F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4993E59C21F055380028C2F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4993E59D21F055380028C2F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4993E5A121F0553F0028C2F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4993E5A221F0553F0028C2F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4993E5BD21F0553F0028C2F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4993E5BE21F0553F0028C2F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4993E5C021F0553F0028C2F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Welcome2MiCasa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jchang.Welcome2MiCasa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4993E5C121F0553F0028C2F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Welcome2MiCasa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jchang.Welcome2MiCasa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4993E5C321F0553F0028C2F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Welcome2MiCasaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jchang.Welcome2MiCasaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Welcome2MiCasa.app/Welcome2MiCasa";
+			};
+			name = Debug;
+		};
+		4993E5C421F0553F0028C2F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Welcome2MiCasaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jchang.Welcome2MiCasaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Welcome2MiCasa.app/Welcome2MiCasa";
+			};
+			name = Release;
+		};
+		4993E5C621F0553F0028C2F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Welcome2MiCasaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jchang.Welcome2MiCasaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Welcome2MiCasa;
+			};
+			name = Debug;
+		};
+		4993E5C721F0553F0028C2F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Welcome2MiCasaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jchang.Welcome2MiCasaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Welcome2MiCasa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4993E58E21F055370028C2F0 /* Build configuration list for PBXProject "Welcome2MiCasa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4993E5BD21F0553F0028C2F0 /* Debug */,
+				4993E5BE21F0553F0028C2F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4993E5BF21F0553F0028C2F0 /* Build configuration list for PBXNativeTarget "Welcome2MiCasa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4993E5C021F0553F0028C2F0 /* Debug */,
+				4993E5C121F0553F0028C2F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4993E5C221F0553F0028C2F0 /* Build configuration list for PBXNativeTarget "Welcome2MiCasaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4993E5C321F0553F0028C2F0 /* Debug */,
+				4993E5C421F0553F0028C2F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4993E5C521F0553F0028C2F0 /* Build configuration list for PBXNativeTarget "Welcome2MiCasaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4993E5C621F0553F0028C2F0 /* Debug */,
+				4993E5C721F0553F0028C2F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4993E58B21F055370028C2F0 /* Project object */;
+}
