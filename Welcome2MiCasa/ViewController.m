@@ -9,6 +9,8 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *CoatRoom;
+
 
 @end
 
@@ -20,4 +22,7 @@
 }
 
 
+
+- (IBAction)Library:(id)sender {
+}
 @end
